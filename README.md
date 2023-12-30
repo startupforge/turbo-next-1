@@ -4,7 +4,7 @@ Example repository using `pnpm`, `turbo`, `nextjs`, and `typescript`.
 
 ## Purpose
 
-Set up a monorepo with a `@company/utils` package that can export modules from non-root paths.
+Set up a monorepo with a `@company/utils` package that can export from non-root paths.
 
 - Package: `@company/utils`
 - Install via: `"@company/utils": "workspace:*"`
