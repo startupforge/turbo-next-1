@@ -1,0 +1,25 @@
+{
+  "name": "code",
+  "version": "0.0.0",
+  "license": "MIT",
+  "packageManager": "pnpm@8.10.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md,prisma}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md,prisma}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@company/eslint-config-custom": "workspace:*",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "eslint": "^8.46.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.16"
+  }
+}
