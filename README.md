@@ -1,12 +1,11 @@
 # Code
 
-Example repo using `pnpm`, `turbo`, `nextjs`, and `typescript`.
+Example repository using `pnpm`, `turbo`, `nextjs`, and `typescript`.
 
 ## Purpose
 
-Setup a monorepo using these technologies and create a `@company/utils` package
-within the workspace that can group modules and works with the build system.
+Set up a monorepo with a `@company/utils` package that can export modules from non-root paths.
 
-- With a package named: `@company/utils`
-- Install in `package.json` via: `"@company/utils": "workspace:*"`
-- And this works: `import { world } from "@company/utils/hello"`
+- Package: `@company/utils`
+- Install via: `"@company/utils": "workspace:*"`
+- Usage example: `import { world } from "@company/utils/hello"`
